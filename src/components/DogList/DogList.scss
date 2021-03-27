@@ -1,0 +1,59 @@
+.dog-list {
+  width: 100%;
+
+  .grid {
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+
+    .grid-column {
+      padding-left: 30px;
+      background-clip: padding-box;
+    }
+  }
+
+  .item {
+    background: #fff;
+    box-shadow: 2px 2px 4px 0 #ccc;
+    text-align: center;
+    position: relative;
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    transition-timing-function: ease-in;
+
+    &.box {
+      padding: 0;
+    }
+
+    .item-text {
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      opacity: 0.8;
+      z-index: 0;
+    }
+  }
+
+  h1.breed-name,
+  .add-btn {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .add-btn {
+    font-size: 1.3rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
