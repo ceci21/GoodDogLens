@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GoodDogLens/static/css/main.8f847182.chunk.css",
+    "main.js": "/GoodDogLens/static/js/main.bf2e1b5d.chunk.js",
+    "main.js.map": "/GoodDogLens/static/js/main.bf2e1b5d.chunk.js.map",
+    "runtime-main.js": "/GoodDogLens/static/js/runtime-main.7feea4f7.js",
+    "runtime-main.js.map": "/GoodDogLens/static/js/runtime-main.7feea4f7.js.map",
+    "static/css/2.ddbe87e1.chunk.css": "/GoodDogLens/static/css/2.ddbe87e1.chunk.css",
+    "static/js/2.b657b2e3.chunk.js": "/GoodDogLens/static/js/2.b657b2e3.chunk.js",
+    "static/js/2.b657b2e3.chunk.js.map": "/GoodDogLens/static/js/2.b657b2e3.chunk.js.map",
+    "index.html": "/GoodDogLens/index.html",
+    "static/css/2.ddbe87e1.chunk.css.map": "/GoodDogLens/static/css/2.ddbe87e1.chunk.css.map",
+    "static/css/main.8f847182.chunk.css.map": "/GoodDogLens/static/css/main.8f847182.chunk.css.map",
+    "static/js/2.b657b2e3.chunk.js.LICENSE.txt": "/GoodDogLens/static/js/2.b657b2e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7feea4f7.js",
+    "static/css/2.ddbe87e1.chunk.css",
+    "static/js/2.b657b2e3.chunk.js",
+    "static/css/main.8f847182.chunk.css",
+    "static/js/main.bf2e1b5d.chunk.js"
+  ]
+}
