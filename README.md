@@ -34,7 +34,7 @@ This was a fun assignment. I tried not to be a perfectionist with this because I
 
     ```json
     {
-      "breed": ["shepherd"],
+      "bulldog": ["boston", "english", "french"],
       "hound": ["afghan", "blood", "ibhizan"]
     }
     ```
