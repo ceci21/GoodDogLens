@@ -1,8 +1,11 @@
+# GoodDogLens
+
+A tiled view of dog breeds! View at [https://ceci21.github.io/GoodDogLens/](https://ceci21.github.io/GoodDogLens/) 🎉
+
 # Table of Contents
 
-* [Post-Assignment Thoughts](#post-assignment-thoughts)
-* [Setup](#setup)
-
+- [Post-Assignment Thoughts](#post-assignment-thoughts)
+- [Setup](#setup)
 
 # Post-Assignment Thoughts
 
@@ -18,18 +21,11 @@ This was a fun assignment. I tried not to be a perfectionist with this because I
     [
       {
         "breed": "schnauzer",
-        "subBreeds": [
-          "giant",
-          "miniature"
-        ]
+        "subBreeds": ["giant", "miniature"]
       },
       {
         "breed": "hound",
-        "subBreeds": [
-          "afghan",
-          "blood",
-          "ibhizan"
-        ]
+        "subBreeds": ["afghan", "blood", "ibhizan"]
       }
     ]
     ```
@@ -42,7 +38,9 @@ This was a fun assignment. I tried not to be a perfectionist with this because I
       "hound": ["afghan", "blood", "ibhizan"]
     }
     ```
+
     This would be good because the filtering function wouldn't need to differentiate between types of lists, and you could just pass in the proper list depending on whether there is a breed selected by the user. Also, you wouldn't need to keep track of the index of the array in state with `selectedBreedI`.
+
 - Break out Bulma UI components into separate React components. The `react-bulma-components` library is great, but I found I needed to use just the normal HTML elements with Bulma classes at times for my own usage.
 - I was happy with my `[breed:sub-breed]: img-url` system for the dog images as I didn't want to stuff the URLS and the sub-breeds -> major breeds all together in one structure, and it made for faster image URL retrieval. But perhaps adding a couple of helper functions to `/lib` for this purpose would help clean up the code.
 
