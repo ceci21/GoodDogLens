@@ -25,11 +25,11 @@ This was a fun assignment. I tried not to be a perfectionist with this because I
       },
       {
         "breed": "hound",
-        "subBreeds": {
+        "subBreeds": [
           "afghan",
           "blood",
           "ibhizan"
-        }
+        ]
       }
     ]
     ```
